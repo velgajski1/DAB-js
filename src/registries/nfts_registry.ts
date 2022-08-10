@@ -106,7 +106,6 @@ export const getUserCollectionTokens = async (
     }
     return collectionDetails;
   } catch (e) {
-    console.error(e);
     return {
       name: collection.name,
       canisterId: collection.principal_id.toString(),
